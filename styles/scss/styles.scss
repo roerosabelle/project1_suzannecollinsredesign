@@ -1,0 +1,645 @@
+// adobe fonts
+@import url("https://use.typekit.net/owx8hdr.css");
+
+// colors
+$primary-color: #F2811D;
+$secondary-color: #0D0D0D;
+$tertiary-color: #FFFFFF;
+$links-active: #F2B705;
+$links-visited: #BF4904;
+
+// spacing 
+$rem-3: 3rem;
+
+// font styling
+//font family
+$serif: guyot-headline, sans-serif;
+$sans-serif: basic-sans, sans-serif;
+
+// font weights
+$regular: 400;
+$semibold: 500;
+$bold: 700;
+
+h1 {
+    font-family: $serif;
+    font-weight: $bold;
+    color: $tertiary-color;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+h2 {
+    font-family: $serif;
+    font-weight: $bold;
+    color: $secondary-color;
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+h3 {
+    font-family: $serif;
+    font-weight: $bold;
+    color: $secondary-color;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+h4 {
+    font-family: $serif;
+    font-weight: $bold;
+    color: $tertiary-color;
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-family: $sans-serif;
+    font-weight: $semibold;
+    color: $tertiary-color;
+    font-size: 1rem;
+}
+
+h6 {
+    font-family: $serif;
+    font-weight: $bold;
+    color: $tertiary-color;
+    font-size: 1rem;
+}
+
+p {
+    font-family: $sans-serif;
+    font-weight: $regular;
+    font-size: 1rem;
+    line-height: 1.5;
+}
+
+// text styling
+$center-text: center;
+
+// buttons
+// border-radius
+$border-radius: 2.5rem;
+$text-decoration: none;
+$button-margin-top: 1.5rem;
+
+.row-buttons {
+    gap: 0.7rem;
+}
+
+.button {
+    background-color: $primary-color;
+    color: $tertiary-color;
+    font-family: $sans-serif;
+    font-weight: $bold;
+    font-size: 0.875rem;
+    border-radius: $border-radius;
+    text-decoration: $text-decoration;
+    padding: 1rem 2.5rem;
+    margin-top: $button-margin-top;
+}
+
+.button:hover {
+        background-color: $links-active;
+    }
+
+.button:active {
+        background-color: $links-visited;
+    }
+
+
+.button2 {
+    border: 0.1rem solid $primary-color;
+    color: $primary-color;
+    font-family: $sans-serif;
+    font-weight: $bold;
+    font-size: 0.875rem;
+    border-radius: $border-radius;
+    text-decoration: $text-decoration;
+    padding: 1rem 2.9rem;
+    margin-top: $button-margin-top;
+}
+
+.button2:hover {
+    color: $links-active;
+    border: 0.1rem solid $links-active;
+}
+
+.button2:active {
+    color: $links-visited;
+    border: 0.1rem solid $links-visited;
+}
+
+// container
+.container {
+    max-width: 1920px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+// homepage
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.fold {
+    background-image: url(../../images/book-fold.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 52rem;
+    color: $tertiary-color;
+}
+
+.flex {
+    display: flex;
+}
+
+.top img {
+    position: absolute;
+    right: 1.5rem;
+    top: 2.6rem;
+}
+
+.top h1 {
+    padding-bottom: 1.5rem;
+}
+
+.bottom {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    margin-top: 28rem;
+}
+
+// latest release section
+.latest-release {
+    margin-top: 2rem;
+}
+
+.books-row {
+    flex-direction: column;
+}
+
+.card-book {
+    margin-top: 2rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-book img {
+    margin-bottom: 2rem;
+}
+
+// review carousel section
+.reviews {
+    background-image: url(../../images/ember-background1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 44rem;
+    color: $tertiary-color;
+    margin-top: $rem-3;
+    padding-top: 3rem;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.reviews-header h2 {
+    color: $tertiary-color;
+    padding-bottom: 2rem;
+}
+
+.reviews p {
+    padding-bottom: 1rem;
+    width: 93%;
+}
+
+.reviews h5 {
+    padding-bottom: 1rem;
+}
+
+// check out the rest of the series section
+.check-series {
+    margin-top: 1rem;
+}
+
+.book-row-img img {
+   width: 40%;
+}
+
+
+
+// footer
+.footer {
+    background-image: url(../../images/ember-background3.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 63rem;
+    margin-top: $rem-3;
+    padding-top: $rem-3;
+    color: $tertiary-color;
+}
+
+.form h4 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.form p {
+    text-align: center;
+    margin-bottom: $rem-3;
+}
+
+.input-label {
+    font-family: $sans-serif;
+    font-weight: $semibold;
+    color: $primary-color;
+    font-size: 0.875rem;
+}
+
+.form input[type=text], select {
+    height: 3rem;
+    border-radius: 2.5rem;
+    border: none;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.form input[type=submit], select {
+    background-color: $primary-color;
+    color: $tertiary-color;
+    font-family: $sans-serif;
+    font-weight: $bold;
+    font-size: 0.875rem;
+    border-radius: $border-radius;
+    border: none;
+    text-decoration: $text-decoration;
+    padding: 1rem 2.5rem;
+}
+
+.form input[type=submit]:hover {
+    background-color: $links-active;
+}
+
+.form input[type=submit]:active {
+    background-color: $links-visited;
+}
+
+.footer-links {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+    margin-top: $rem-3;
+}
+
+.one-third {
+    flex-direction: column;
+    align-items: center;
+}
+
+.one-third p {
+    width: auto;
+}
+
+.footer-links {
+    a:link {
+        color: $tertiary-color;
+        text-decoration: none;
+    } 
+    
+    a:hover {
+        color: $primary-color;
+    }
+
+    a:active {
+        color: $links-active;
+    }
+
+    a:visited {
+        color: $links-visited;
+    }
+}
+.copyright {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+
+
+
+// catching fire page
+.fold-catching-fire {
+    background-color: $secondary-color;
+    color: $tertiary-color;
+}
+
+.purchase-rows {
+    margin-top: 2rem;
+}
+
+.logo {
+    gap: 2rem;
+    margin-bottom: 1rem;
+}
+
+.accolades {
+    background-image: url(../../images/ember-background2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 51rem;
+    color: $tertiary-color;
+    margin-top: 2rem;
+}
+
+.accolades h2 {
+    color: $tertiary-color;
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.accolades p {
+    line-height: 2;
+}
+
+.book-reviews {
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+
+ul {
+    list-style: none; 
+}
+  
+ul li::before {
+    content: "\2022"; 
+    color: $primary-color; 
+    display: inline-block;
+    width: 1.5rem;
+    margin-left: -1rem; 
+}
+
+ul li {
+    font-family: $sans-serif;
+    font-weight: $regular;
+    padding-bottom: 1.5rem;
+}
+
+
+//biography page
+.bio-row-header {
+    background-image: url(../../images/ember-background2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 15rem;
+    margin-top: -1rem;
+    margin-bottom: 2rem;
+}
+
+.bio-row-header h3 {
+    color: $tertiary-color;
+    text-align: left;
+    padding-top: 12rem;
+}
+
+.center {
+    text-align: center;
+}
+
+.content-awards {
+    margin-top: 2rem;
+    margin-bottom: $rem-3;
+}
+
+.content-awards h3 {
+    text-align: left;
+}
+
+.content-awards p {
+    margin-bottom: 1rem;
+}
+
+.bio-row-content p {
+    margin-bottom: 2rem;
+}
+
+.bio-button {
+    margin-top: 2rem;
+}
+
+// about: interview
+.interview-bkg {
+    background-image: url(../../images/biography-hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 25rem;
+}
+
+.interview-bkg:nth-child(3) {
+    background-image: url(../../images/interview-bkg1.jpg);
+}
+
+.interview-bkg:nth-child(5) {
+    background-image: url(../../images/interview-bkg2.jpg);
+}
+
+.interview-bkg:nth-child(7) {
+    background-image: url(../../images/interview-bkg3.jpg);
+}
+
+.interview h2 {
+    margin-top: $rem-3;
+}
+
+.first {
+    margin-top: 2rem;
+}
+
+.question h4 {
+    color: $secondary-color;
+    padding-bottom: 1rem;
+}
+
+.question p {
+    padding-bottom: 1.5rem;
+}
+
+
+
+
+
+
+// media queries
+@media (min-width: 576px) /* for mobile */{
+// homepage
+    p {
+        width: 64%;
+    }
+
+    .img-resize {
+        width: 40%;
+    }
+
+    .reviews {
+        height: 34rem;
+    }
+
+    .form.container {
+        max-width: 75%;
+    }
+
+    .form p {
+        margin-left: 5.5rem;
+    }
+
+    // biography 
+    .bio-fold {
+        height: 30.4rem;
+    } 
+
+    //catching fire
+    .logo {
+        width: 65%;
+    }
+
+    .accolades {
+        height: 45rem;
+    }
+
+    .book-reviews {
+        width: 85%;
+    }
+}
+
+@media (min-width:768px) /* for tablets */{
+        // homepage
+    .img-resize {
+        width: 30%;
+    }
+
+    .reviews {
+        height: 32rem;
+        padding-left: 3rem;
+        flex-direction: column;
+    }
+
+    .reviews-content {
+        display:flex;
+        flex-direction: row;
+    }
+
+    .review-card {
+        width: 40%;
+    }
+
+    .reviews p {
+        width: 80%;
+    }
+
+
+    .form.container {
+        width: 60%;
+    }
+
+    .form p {
+        margin-left: 6rem;
+    }
+
+    .book-row-img img {
+        width: 35%;
+     }
+    // interview 
+    .question h4 {
+        width: 80%;
+    }
+
+    //catching fire
+    .accolades {
+        height: 44rem;
+    }
+
+}
+@media (min-width: 992px) /* for laptops */{
+    // homepage
+    .img-resize {
+        width: 25%;
+    }
+
+    .reviews {
+        height: 27rem;
+        padding-left: 5rem;
+    }
+
+    .form.container {
+        width: 55%;
+    }
+
+    .form p {
+        width: 68%;
+    }
+
+    p {
+        width: 53%;
+    }
+
+    .check-series h2 {
+        text-align: center;
+    }
+
+    .book-row-img p {
+        width: 74%;
+    }
+    .book-row-img {
+        align-items: flex-start;
+        width: 40%;
+    }
+    .books-row {
+        flex-direction: row;
+        margin-left: 6rem;
+    }
+
+    .book-row-img img {
+        width: 60%;
+    }
+
+    //catching fire
+    .purchase-rows {
+        margin-left: 10rem;
+    }
+
+    .logo img {
+        width: 30%;
+    }
+}
+@media (min-width: 1200px) /* for large devices */{
+    // homepage
+    .reviews {
+        height: 25rem;
+    }
+    .form.container {
+        width: 45%;
+    }
+
+    p {
+        width: 40%;
+    }
+
+    .img-resize {
+        width: 25%;
+    }
+    //catching fire
+    .purchase-rows {
+        margin-left: 15rem;
+    }
+    
+    .logo img {
+        width: 25%;
+    }
+}

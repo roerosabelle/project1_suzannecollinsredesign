@@ -1,0 +1,548 @@
+@charset "UTF-8";
+@import url("https://use.typekit.net/owx8hdr.css");
+h1 {
+  font-family: guyot-headline, sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 2.5rem;
+  margin-top: 1.5rem;
+}
+
+h2 {
+  font-family: guyot-headline, sans-serif;
+  font-weight: 700;
+  color: #0D0D0D;
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-family: guyot-headline, sans-serif;
+  font-weight: 700;
+  color: #0D0D0D;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+h4 {
+  font-family: guyot-headline, sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 1.25rem;
+}
+
+h5 {
+  font-family: basic-sans, sans-serif;
+  font-weight: 500;
+  color: #FFFFFF;
+  font-size: 1rem;
+}
+
+h6 {
+  font-family: guyot-headline, sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+  font-size: 1rem;
+}
+
+p {
+  font-family: basic-sans, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.row-buttons {
+  gap: 0.7rem;
+}
+
+.button {
+  background-color: #F2811D;
+  color: #FFFFFF;
+  font-family: basic-sans, sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  border-radius: 2.5rem;
+  text-decoration: none;
+  padding: 1rem 2.5rem;
+  margin-top: 1.5rem;
+}
+
+.button:hover {
+  background-color: #F2B705;
+}
+
+.button:active {
+  background-color: #BF4904;
+}
+
+.button2 {
+  border: 0.1rem solid #F2811D;
+  color: #F2811D;
+  font-family: basic-sans, sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  border-radius: 2.5rem;
+  text-decoration: none;
+  padding: 1rem 2.9rem;
+  margin-top: 1.5rem;
+}
+
+.button2:hover {
+  color: #F2B705;
+  border: 0.1rem solid #F2B705;
+}
+
+.button2:active {
+  color: #BF4904;
+  border: 0.1rem solid #BF4904;
+}
+
+.container {
+  max-width: 1920px;
+  width: 90%;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.fold {
+  background-image: url(../../images/book-fold.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 52rem;
+  color: #FFFFFF;
+}
+
+.flex {
+  display: flex;
+}
+
+.top img {
+  position: absolute;
+  right: 1.5rem;
+  top: 2.6rem;
+}
+
+.top h1 {
+  padding-bottom: 1.5rem;
+}
+
+.bottom {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  margin-top: 28rem;
+}
+
+.latest-release {
+  margin-top: 2rem;
+}
+
+.books-row {
+  flex-direction: column;
+}
+
+.card-book {
+  margin-top: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-book img {
+  margin-bottom: 2rem;
+}
+
+.reviews {
+  background-image: url(../../images/ember-background1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 44rem;
+  color: #FFFFFF;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  flex-direction: column;
+  margin-bottom: 2rem;
+}
+
+.reviews-header h2 {
+  color: #FFFFFF;
+  padding-bottom: 2rem;
+}
+
+.reviews p {
+  padding-bottom: 1rem;
+  width: 93%;
+}
+
+.reviews h5 {
+  padding-bottom: 1rem;
+}
+
+.check-series {
+  margin-top: 1rem;
+}
+
+.book-row-img img {
+  width: 40%;
+}
+
+.footer {
+  background-image: url(../../images/ember-background3.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 63rem;
+  margin-top: 3rem;
+  padding-top: 3rem;
+  color: #FFFFFF;
+}
+
+.form h4 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.form p {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.input-label {
+  font-family: basic-sans, sans-serif;
+  font-weight: 500;
+  color: #F2811D;
+  font-size: 0.875rem;
+}
+
+.form input[type=text], select {
+  height: 3rem;
+  border-radius: 2.5rem;
+  border: none;
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.form input[type=submit], select {
+  background-color: #F2811D;
+  color: #FFFFFF;
+  font-family: basic-sans, sans-serif;
+  font-weight: 700;
+  font-size: 0.875rem;
+  border-radius: 2.5rem;
+  border: none;
+  text-decoration: none;
+  padding: 1rem 2.5rem;
+}
+
+.form input[type=submit]:hover {
+  background-color: #F2B705;
+}
+
+.form input[type=submit]:active {
+  background-color: #BF4904;
+}
+
+.footer-links {
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin-top: 3rem;
+}
+
+.one-third {
+  flex-direction: column;
+  align-items: center;
+}
+
+.one-third p {
+  width: auto;
+}
+
+.footer-links a:link {
+  color: #FFFFFF;
+  text-decoration: none;
+}
+.footer-links a:hover {
+  color: #F2811D;
+}
+.footer-links a:active {
+  color: #F2B705;
+}
+.footer-links a:visited {
+  color: #BF4904;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.fold-catching-fire {
+  background-color: #0D0D0D;
+  color: #FFFFFF;
+}
+
+.purchase-rows {
+  margin-top: 2rem;
+}
+
+.logo {
+  gap: 2rem;
+  margin-bottom: 1rem;
+}
+
+.accolades {
+  background-image: url(../../images/ember-background2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 51rem;
+  color: #FFFFFF;
+  margin-top: 2rem;
+}
+
+.accolades h2 {
+  color: #FFFFFF;
+  padding-top: 3rem;
+  padding-bottom: 1.5rem;
+}
+
+.accolades p {
+  line-height: 2;
+}
+
+.book-reviews {
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li::before {
+  content: "•";
+  color: #F2811D;
+  display: inline-block;
+  width: 1.5rem;
+  margin-left: -1rem;
+}
+
+ul li {
+  font-family: basic-sans, sans-serif;
+  font-weight: 400;
+  padding-bottom: 1.5rem;
+}
+
+.bio-row-header {
+  background-image: url(../../images/ember-background2.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 15rem;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
+.bio-row-header h3 {
+  color: #FFFFFF;
+  text-align: left;
+  padding-top: 12rem;
+}
+
+.center {
+  text-align: center;
+}
+
+.content-awards {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
+}
+
+.content-awards h3 {
+  text-align: left;
+}
+
+.content-awards p {
+  margin-bottom: 1rem;
+}
+
+.bio-row-content p {
+  margin-bottom: 2rem;
+}
+
+.bio-button {
+  margin-top: 2rem;
+}
+
+.interview-bkg {
+  background-image: url(../../images/biography-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 25rem;
+}
+
+.interview-bkg:nth-child(3) {
+  background-image: url(../../images/interview-bkg1.jpg);
+}
+
+.interview-bkg:nth-child(5) {
+  background-image: url(../../images/interview-bkg2.jpg);
+}
+
+.interview-bkg:nth-child(7) {
+  background-image: url(../../images/interview-bkg3.jpg);
+}
+
+.interview h2 {
+  margin-top: 3rem;
+}
+
+.first {
+  margin-top: 2rem;
+}
+
+.question h4 {
+  color: #0D0D0D;
+  padding-bottom: 1rem;
+}
+
+.question p {
+  padding-bottom: 1.5rem;
+}
+
+@media (min-width: 576px) {
+  p {
+    width: 64%;
+  }
+  .img-resize {
+    width: 40%;
+  }
+  .reviews {
+    height: 34rem;
+  }
+  .form.container {
+    max-width: 75%;
+  }
+  .form p {
+    margin-left: 5.5rem;
+  }
+  .bio-fold {
+    height: 30.4rem;
+  }
+  .logo {
+    width: 65%;
+  }
+  .accolades {
+    height: 45rem;
+  }
+  .book-reviews {
+    width: 85%;
+  }
+}
+@media (min-width: 768px) {
+  .img-resize {
+    width: 30%;
+  }
+  .reviews {
+    height: 32rem;
+    padding-left: 3rem;
+    flex-direction: column;
+  }
+  .reviews-content {
+    display: flex;
+    flex-direction: row;
+  }
+  .review-card {
+    width: 40%;
+  }
+  .reviews p {
+    width: 80%;
+  }
+  .form.container {
+    width: 60%;
+  }
+  .form p {
+    margin-left: 6rem;
+  }
+  .book-row-img img {
+    width: 35%;
+  }
+  .question h4 {
+    width: 80%;
+  }
+  .accolades {
+    height: 44rem;
+  }
+}
+@media (min-width: 992px) {
+  .img-resize {
+    width: 25%;
+  }
+  .reviews {
+    height: 27rem;
+    padding-left: 5rem;
+  }
+  .form.container {
+    width: 55%;
+  }
+  .form p {
+    width: 68%;
+  }
+  p {
+    width: 53%;
+  }
+  .check-series h2 {
+    text-align: center;
+  }
+  .book-row-img p {
+    width: 74%;
+  }
+  .book-row-img {
+    align-items: flex-start;
+    width: 40%;
+  }
+  .books-row {
+    flex-direction: row;
+    margin-left: 6rem;
+  }
+  .book-row-img img {
+    width: 60%;
+  }
+  .purchase-rows {
+    margin-left: 10rem;
+  }
+  .logo img {
+    width: 30%;
+  }
+}
+@media (min-width: 1200px) {
+  .reviews {
+    height: 25rem;
+  }
+  .form.container {
+    width: 45%;
+  }
+  p {
+    width: 40%;
+  }
+  .img-resize {
+    width: 25%;
+  }
+  .purchase-rows {
+    margin-left: 15rem;
+  }
+  .logo img {
+    width: 25%;
+  }
+}/*# sourceMappingURL=styles.css.map */
